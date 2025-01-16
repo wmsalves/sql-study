@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS city (
+CREATE TABLE IF NOT EXISTS cities (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
     city_name VARCHAR(255) NOT NULL,
     state_id int unsigned NOT NULL,
