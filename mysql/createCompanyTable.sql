@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS company (
     UNIQUE KEY (cnpj)
 );
 
--- cidades_empresas
+-- cities_companies
 CREATE TABLE IF NOT EXISTS company_units (
     company_id INT UNSIGNED NOT NULL,
     city_id INT UNSIGNED NOT NULL,
