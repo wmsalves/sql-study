@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS company (
+CREATE TABLE IF NOT EXISTS companies (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
     name_company VARCHAR(255) NOT NULL,
     cnpj int unsigned,
@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS company (
 );
 
 -- cities_companies
-CREATE TABLE IF NOT EXISTS company_units (
+CREATE TABLE IF NOT EXISTS companies_units (
     company_id INT UNSIGNED NOT NULL,
     city_id INT UNSIGNED NOT NULL,
     headquarters TINYINT(1) NOT NULL,
